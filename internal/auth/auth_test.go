@@ -52,7 +52,7 @@ func TestGetAPIKey(t *testing.T) {
 				t.Errorf("got API key %q, want %q", apiKey, tt.wantAPIKey)
 			}
 			if err != nil && err.Error() != tt.wantErr.Error() {
-				t.Errorf("got error %q, want %q", err, tt.wantErr)
+				ta.Errorf("got error %q, want %q", err, tt.wantErr)
 			}
 		})
 	}
