@@ -4,6 +4,8 @@ This repo contains the starter code for the "Notely" application for the "Learn 
 
 ## Local Development
 
+Code Coverage : ![code coverage badge](https://github.com/panthebig/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
+
 Make sure you're on Go version 1.22+.
 
 Create a `.env` file in the root of the project with the following contents:
