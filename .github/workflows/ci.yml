@@ -21,9 +21,3 @@ jobs:
       - name: Go Tests
         run: go test ./...
 
-      - name: Style
-<<<<<<< HEAD
-        run: test -z $(go fmt ./...) && echo$?
-=======
-        run: test -z $(go fmt ./...) && echo $?
->>>>>>> 938e804 (fixes)
