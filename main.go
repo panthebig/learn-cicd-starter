@@ -101,5 +101,6 @@ func main() {
 
 func unused() {
 
-//this is an unused func to break the static checker
+//this is an unused func to break the static checke
+
 }
