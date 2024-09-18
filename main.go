@@ -97,10 +97,8 @@ func main() {
 	log.Fatal(srv.ListenAndServe())
 }
 
-
-
 func unused() {
 
-//this is an unused func to break the static checke
+	//this is an unused func to break the static checke
 
 }
