@@ -96,10 +96,3 @@ func main() {
 	log.Printf("Serving on port: %s\n", port)
 	log.Fatal(srv.ListenAndServe())
 }
-
-
-
-func unused() {
-
-//this is an unused func to break the static checker
-}

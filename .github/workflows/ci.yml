@@ -21,6 +21,7 @@ jobs:
       - name: Go Tests
         run: go test ./...
 
+
   style:
     name: Style
     runs-on: ubuntu-latest
@@ -41,4 +42,4 @@ jobs:
         run: test -z $(go fmt ./...)	
 
       - name: Run Linter
-	run: staticcheck ./...
+        run: staticcheck ./...
